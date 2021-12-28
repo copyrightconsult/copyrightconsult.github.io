@@ -1,0 +1,19 @@
+ 
+img.logo {
+    margin: 1rem 0;
+  }
+  
+img {
+    display: block;
+  }
+
+header#header img.logo {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section#banner img.logo {
+  max-width: 100%;
+}
